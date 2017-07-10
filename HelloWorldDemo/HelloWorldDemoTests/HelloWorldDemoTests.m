@@ -36,4 +36,9 @@
     }];
 }
 
+- (void) testMyFirstTest {
+    int tmp = 0;
+    XCTAssertEqual(tmp, 0);
+}
+
 @end
