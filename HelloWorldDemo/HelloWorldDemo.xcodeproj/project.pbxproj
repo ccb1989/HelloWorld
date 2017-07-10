@@ -348,6 +348,7 @@
 				TargetAttributes = {
 					9C9433AB1F0F90F800682B09 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 59GRQ56Z95;
 						ProvisioningStyle = Automatic;
 					};
 					9C9433C41F0F90F800682B09 = {
@@ -623,6 +624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59GRQ56Z95;
 				INFOPLIST_FILE = HelloWorldDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.HelloWorldDemo;
@@ -634,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59GRQ56Z95;
 				INFOPLIST_FILE = HelloWorldDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.HelloWorldDemo;
