@@ -18,8 +18,6 @@
 		9CE931FF1F13124A00DF0912 /* HelloWorldSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE931F61F13124A00DF0912 /* HelloWorldSDK.framework */; };
 		9CE932061F13124A00DF0912 /* HelloWorldSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE932051F13124A00DF0912 /* HelloWorldSDKTests.m */; };
 		9CE932081F13124A00DF0912 /* HelloWorldSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE931F81F13124A00DF0912 /* HelloWorldSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CE9320B1F13124A00DF0912 /* HelloWorldSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE931F61F13124A00DF0912 /* HelloWorldSDK.framework */; };
-		9CE9320C1F13124A00DF0912 /* HelloWorldSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE931F61F13124A00DF0912 /* HelloWorldSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CE932161F1312B000DF0912 /* HelloWorldInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE932141F1312B000DF0912 /* HelloWorldInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CE932171F1312B000DF0912 /* HelloWorldInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE932151F1312B000DF0912 /* HelloWorldInterface.m */; };
 /* End PBXBuildFile section */
@@ -62,7 +60,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9CE9320C1F13124A00DF0912 /* HelloWorldSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE9320B1F13124A00DF0912 /* HelloWorldSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
