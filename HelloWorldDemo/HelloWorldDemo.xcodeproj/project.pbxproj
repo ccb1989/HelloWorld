@@ -53,13 +53,6 @@
 			remoteGlobalIDString = 9C9433AB1F0F90F800682B09;
 			remoteInfo = HelloWorldDemo;
 		};
-		9CE932091F13124A00DF0912 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C9433A41F0F90F800682B09 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9CE931F51F13124A00DF0912;
-			remoteInfo = HelloWorldSDK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -257,7 +250,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9CE9320A1F13124A00DF0912 /* PBXTargetDependency */,
 			);
 			name = HelloWorldDemo;
 			productName = HelloWorldDemo;
@@ -500,11 +492,6 @@
 			isa = PBXTargetDependency;
 			target = 9C9433AB1F0F90F800682B09 /* HelloWorldDemo */;
 			targetProxy = 9CE932021F13124A00DF0912 /* PBXContainerItemProxy */;
-		};
-		9CE9320A1F13124A00DF0912 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9CE931F51F13124A00DF0912 /* HelloWorldSDK */;
-			targetProxy = 9CE932091F13124A00DF0912 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
